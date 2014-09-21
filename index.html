@@ -1,0 +1,55 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>TicTacToe - For Teespring</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="stylesheets/style.css" />
+
+</head>
+<body>
+    <main id="tictactoe-application">
+        <header class="container">
+            <h1>TicTacToe</h1>
+            <h3 class="gray">A demo game built for Teespring</h3>
+        </header>
+        <aside class="player-container" id="player1">
+            <div class="player"></div>
+        </aside>
+        <article id="game-container" class="container">
+            <table id="game-table">
+                <tr class="row-1" data-row="1">
+                    <td class="col-1" data-col="1"></td>
+                    <td class="col-2" data-col="2"></td>
+                    <td class="col-3" data-col="3"></td>
+                </tr>
+                <tr class="row-2" data-row="2">
+                    <td class="col-1" data-col="1"></td>
+                    <td class="col-2" data-col="2"></td>
+                    <td class="col-3" data-col="3"></td>
+                </tr>
+                <tr class="row-3" data-row="3">
+                    <td class="col-1" data-col="1"></td>
+                    <td class="col-2" data-col="2"></td>
+                    <td class="col-3" data-col="3"></td>
+                </tr>
+            </table>
+            <div id="game-actions">
+                <a id="start-button" class="btn big green block active">Start!</a>
+                <a id="restart-button" class="btn big block">Restart</a>
+                <a id="again-button" class="btn big red block">Play Again!</a>
+            </div>
+        </article>
+        <aside class="player-container" id="player2">
+            <div class="player"></div>
+        </aside>
+    </main>
+</body>
+
+<!-- Scripts -->
+<script type="text/javascript" src="/javascripts/app.js"></script>
+<script type="text/javascript" src="/javascripts/utils.js"></script>
+<script type="text/javascript" src="/javascripts/modules.js"></script>
+<script type="text/javascript" src="/javascripts/views.js"></script>
+
+</html>
